@@ -1,0 +1,24 @@
+# Create fresh .gitignore
+@"
+# Environment Variables
+backend/.env
+.env
+*.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding ascii
